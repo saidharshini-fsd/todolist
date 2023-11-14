@@ -15,7 +15,7 @@ const TodoApp = () => {
     }
 
     if (editMode) {
-      // Update existing todo
+  
       const updatedTodos = todos.map((todo) =>
         todo.id === editTodoId ? { ...todo, taskName, taskDescription } : todo
       );
